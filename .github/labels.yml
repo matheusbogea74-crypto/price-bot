@@ -1,0 +1,61 @@
+# Suggested label set for this repository.
+#
+# GitHub doesn't apply this automatically — either create these manually under
+# Settings → Labels, or sync them with an action such as
+# https://github.com/crazy-max/ghaction-github-labeler by pointing it at this file.
+
+- name: 'bug'
+  color: 'd73a4a'
+  description: "Something isn't working as expected"
+
+- name: 'enhancement'
+  color: 'a2eeef'
+  description: 'New feature or improvement request'
+
+- name: 'documentation'
+  color: '0075ca'
+  description: 'Improvements or additions to documentation'
+
+- name: 'good first issue'
+  color: '7057ff'
+  description: 'Good for newcomers to the project'
+
+- name: 'help wanted'
+  color: '008672'
+  description: 'Extra attention or a contributor is wanted'
+
+- name: 'needs-triage'
+  color: 'ededed'
+  description: 'Not yet reviewed by a maintainer'
+
+- name: 'question'
+  color: 'd876e3'
+  description: 'Further information is requested'
+
+- name: 'wontfix'
+  color: 'ffffff'
+  description: 'This will not be worked on — see the discussion for why'
+
+- name: 'security'
+  color: 'b60205'
+  description: 'Security-related (use private reporting for actual vulnerabilities — see SECURITY.md)'
+
+- name: 'dependencies'
+  color: '0366d6'
+  description: 'Dependency updates (used by Dependabot)'
+
+- name: 'refactor'
+  color: 'fbca04'
+  description: 'Code change that neither fixes a bug nor adds a feature'
+
+- name: 'scraper'
+  color: 'c5def5'
+  description: "Related to a specific store's price-scraping logic"
+
+- name: 'whatsapp'
+  color: 'c5def5'
+  description: 'Related to the WhatsApp connection or message delivery'
+
+- name: 'discovery'
+  color: 'c5def5'
+  description: 'Related to the autonomous deal-discovery pipeline'

@@ -1,0 +1,56 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ['bug', 'needs-triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in as much of this as you can.
+
+        ⚠️ **Never paste real credentials, tokens, phone numbers, or full URLs containing personal identifiers.** Redact them before submitting. If the bug itself is a security vulnerability, please use [private reporting](../../security/advisories/new) instead of this form.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect to happen, and what actually happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Which command/script did you run, with what input?
+      placeholder: |
+        1. `npm run scrape-amazon -- "<redacted url>"`
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Paste any relevant console/log output. This will be automatically formatted as code.
+      render: shell
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node.js version
+      placeholder: 'node --version'
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. Ubuntu 24.04, Windows 11
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that might help (which store/integration is affected, whether this is a fresh setup or was working before, etc.)

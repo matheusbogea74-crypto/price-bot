@@ -1,0 +1,22 @@
+# Normalize line endings for everyone, regardless of platform/editor.
+* text=auto eol=lf
+
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary files — never diff/merge as text.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.db binary
+
+# Exclude non-essential files from GitHub's language/stats detection and
+# from source archives (npm pack / GitHub "Download ZIP" of a release).
+docs/** linguist-documentation
+*.md linguist-documentation

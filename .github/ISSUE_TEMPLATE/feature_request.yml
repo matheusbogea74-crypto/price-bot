@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an idea or improvement for this project
+labels: ['enhancement', 'needs-triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Please check [ROADMAP.md](../../blob/main/ROADMAP.md) first — your idea might already be listed (planned, under consideration, or explicitly out of scope with a reason).
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What are you trying to do that the project doesn't currently support?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like this to work? Sketch the approach if you have one in mind.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you thought about, and why you preferred this one.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

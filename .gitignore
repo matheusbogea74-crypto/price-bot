@@ -1,0 +1,26 @@
+node_modules/
+data/*.db
+data/*.db-journal
+.env
+.env.*
+!.env.example
+baileys_auth/
+
+# Private working journals kept locally for continuity between sessions.
+# Contain infrastructure details (server IPs, resource names, affiliate IDs)
+# that should not be published. See docs/ARCHITECTURE.md for the public,
+# sanitized version of this history.
+PROJECT.md
+historico.md
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Scratch files used during interactive debugging sessions — never meant
+# to be committed.
+scratch-*.mjs
+scratch-*.js
