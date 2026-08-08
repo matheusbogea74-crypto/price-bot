@@ -1,5 +1,6 @@
 # price-bot
 
+[![CI](https://github.com/matheusbogea74-crypto/price-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/matheusbogea74-crypto/price-bot/actions/workflows/ci.yml)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D22.5.0-brightgreen)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
